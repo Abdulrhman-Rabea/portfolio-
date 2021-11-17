@@ -447,7 +447,18 @@ form :nth-child(4){
     font-size: 25px;
     text-decoration: none;
 }
-.contact_me.social p{
-margin: 0 auto;
+.contact_me .social {
+    display: block;
+    text-align: center;
+    font-size: 25px;
 }
-
+.contact_me .icons{
+    display:flex;
+    gap: 30px;
+    /* flex-direction: column; */
+    margin: 20px 0px 10px;
+}
+.contact_me .icons i{
+    color: var(--fourth-color);
+    font-size: 40px;
+}
